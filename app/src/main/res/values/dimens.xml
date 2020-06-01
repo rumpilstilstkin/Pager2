@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pageMargin">8dp</dimen>
+    <dimen name="offset">160dp</dimen>
+    <dimen name="pageMarginAndOffset">50dp</dimen>
+    <dimen name="card_width">60dp</dimen>
+    <dimen name="spaceM">16dp</dimen>
+</resources>
