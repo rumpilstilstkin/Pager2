@@ -28,9 +28,9 @@ class MainActivity : AppCompatActivity() {
         val comPageTr = CompositePageTransformer()
         comPageTr.addTransformer(MarginPageTransformer(20))
         comPageTr.addTransformer { page, position ->
-            val f = if(position >= -1 && position <=1) 1 - abs(position) else -1.1f
-            page.scaleY = 1f + f * 0.2f
-            page.scaleX = 1f + f * 0.2f
+            val f = 1 - abs(position)
+            page.scaleY = 1f + f * 0.15f
+            page.scaleX = 1f + f * 0.15f
         }
 
         val card =
